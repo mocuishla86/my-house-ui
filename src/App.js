@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <span>
+        Type: Turn Fresh Air On
+        </span>
       </header>
     </div>
   );
