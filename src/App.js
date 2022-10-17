@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import EventList from './HouseEvents/EventList';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </a>
         <span>
         Type: Turn Fresh Air On
+        <EventList />
         </span>
       </header>
     </div>
