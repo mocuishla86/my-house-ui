@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function EventList(){
+function ActionList(){
     useEffect(() => {
 fetch('http://localhost:8080/actions')
 .then(response => response.json())
@@ -13,4 +13,4 @@ return(
 )
 }
 
-export default EventList;
+export default ActionList;

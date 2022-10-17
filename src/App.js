@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import EventList from './HouseEvents/EventList';
+import ActionList from './action/ActionList';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         </a>
         <span>
         Type: Turn Fresh Air On
-        <EventList />
+        <ActionList />
         </span>
       </header>
     </div>
