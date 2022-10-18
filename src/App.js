@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import ActionList from './action/ActionList';
-import SelectAction from './action/SelectAction';
-
 
 function App() {
   return (
