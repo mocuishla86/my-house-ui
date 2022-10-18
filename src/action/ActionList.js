@@ -12,7 +12,7 @@ function ActionList() {
   return (
     <div>
       {actions.map((a) => (
-        <ActionCard action={a} />
+        <ActionCard key="{a.id}" action={a} />
       ))}
     </div>
   );
